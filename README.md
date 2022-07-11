@@ -37,7 +37,7 @@ Options:
 
 This example generates a PCM audio file along with an SRT captions file.
 
-```0`bash
+````bash
 $ polly-vtt testfile Joanna pcm "this is a test. this is a second sentence." --caption-format srt
 testfile.wav written successfully.
 testfile.wav.srt written successfully.
